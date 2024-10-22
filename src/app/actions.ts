@@ -47,6 +47,7 @@ export async function createAction(formData: FormData) {
         id: Invoices.id
     })
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const {data, error} = await resend.emails.send({
         from: 'Space Jelly <info@test.pzsombor.dev>',
         to: [email],

@@ -55,6 +55,7 @@ InvoiceCreatedEmail.PreviewProps = {
 
 export default InvoiceCreatedEmail;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const logo = {
     borderRadius: 21,
     width: 42,
