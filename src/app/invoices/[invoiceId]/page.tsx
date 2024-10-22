@@ -7,7 +7,8 @@ import {auth} from '@clerk/nextjs/server';
 
 import Invoice from "@/app/invoices/[invoiceId]/invoice";
 
-export default async function InvoicePage({params}: { params: { invoiceId: string } }) {
+export default async function InvoicePage(props: { params: Promise<{ invoiceId: string }> }) {
+    const params = await props.params;
     const {userId, orgId} = auth();
     if (!userId) {
         return;
