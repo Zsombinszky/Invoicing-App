@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1729342541033,
+      "tag": "0000_tranquil_grandmaster",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1729428920042,
+      "tag": "0001_fresh_war_machine",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1729450201573,
+      "tag": "0002_misty_jack_flag",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1729450501167,
+      "tag": "0003_famous_mac_gargan",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1729485462837,
+      "tag": "0004_even_rumiko_fujikawa",
+      "breakpoints": true
+    }
+  ]
+}
